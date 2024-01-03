@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /assets/
+Disallow: /fonts/
+Disallow: /stylesheets/
+Sitemap: https://kb.bmyjacks.io/sitemap.xml

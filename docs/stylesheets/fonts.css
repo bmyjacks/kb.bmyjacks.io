@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "MiSans Latin";
+    src:
+        local("MiSans Latin Light"),
+        url("../fonts/MiSans-Latin/MiSansLatin-Light.woff2") format("woff2");
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MiSans Latin";
+    src:
+        local("MiSans Latin Regular"),
+        url("../fonts/MiSans-Latin/MiSansLatin-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MiSans Latin";
+    src:
+        local("MiSans Latin Bold"),
+        url("../fonts/MiSans-Latin/MiSansLatin-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        local("JetBrains Mono Regular"),
+        url("../fonts/JetBrainsMono-2.304/JetBrainsMono-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --md-text-font: "MiSans Latin", sans-serif;
+    --md-code-font: "JetBrains Mono", monospace;
+}

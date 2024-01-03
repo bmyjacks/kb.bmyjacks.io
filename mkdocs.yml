@@ -1,0 +1,72 @@
+site_name: bmyjacks Knowledge Base
+site_url: https://kb.bmyjacks.io/
+site_description: bmyjacks Knowledge Base
+site_author: bmyjacks
+
+theme:
+  name: material
+  font: false
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.sections
+    - navigation.prune
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - toc.follow
+    - search.suggest
+    - search.share
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+extra_css:
+  - stylesheets/fonts.css
+
+plugins:
+  - search
+
+copyright: Copyright &copy; 2024 bmyjacks. This work is licensed via <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Home:
+      - "Welcome": "index.md"
+      - "License": "license.md"
+      - "About me": "about.md"
+  - Markdown:
+      - "Get start": "markdown/index.md"
+      - "Syntax": "markdown/syntax.md"
