@@ -67,5 +67,5 @@ nav:
       - "Welcome": "index.md"
       - "About me": "about.md"
   - Markdown:
-      - "Get start": "markdown/index.md"
+      - "Get started": "markdown/index.md"
       - "Syntax": "markdown/syntax.md"

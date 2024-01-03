@@ -6,7 +6,7 @@ Remember what I said before? Markdown powers your notepad to run some basic Word
 
 ## Headings
 
-In order to create a headings in Markdown, the number sign(#) helps you to do that.
+To create headings in Markdown, the number sign(#) helps you to do that.
 
 | Markdown         | Output           |
 | ---------------- | ---------------- |
@@ -33,7 +33,7 @@ This is the second paragraph.
 
 ### Line breaks
 
-Like LaTeX, markdown treats two adjacent lines in the same paragraph, so it won't add an auto line break between them. We need to use `<br>` to make a explicit hint.
+Like LaTeX, markdown treats two adjacent lines in the same paragraph, so it won't add an auto line break between them. We need to use `<br>` to make an explicit hint.
 
 ```markdown
 This is the first line.<br>This is the second line.
@@ -50,15 +50,17 @@ I need to **bold this**.
 ```
 
 ### Italic
-Be careful! It is different from bold, and we only need to put single pair of asterisk before and after the text.
+
+Be careful! It is different from bold, and we only need to put a single pair of asterisks before and after the text.
 
 ```markdown
-I need to make it *italic*.
+I need to make it _italic_.
 ```
 
 ### Bold and italic
-Using your logical thinking, the combination of bold and italic is add three pairs of asterisks!
+
+Using your logical thinking, the combination of bold and italic is adding three pairs of asterisks!
 
 ```markdown
-Make it ***bold and italic***.
+Make it **_bold and italic_**.
 ```
