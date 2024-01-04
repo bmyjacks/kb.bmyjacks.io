@@ -1,6 +1,6 @@
 site_name: bmyjacks Knowledge Base
 site_url: https://kb.bmyjacks.io/
-site_description: bmyjacks Knowledge Base
+site_description: Learn knowledge interestingly.
 site_author: bmyjacks
 repo_url: https://github.com/bmyjacks/kb.bmyjacks.io
 repo_name: bmyjacks/kb.bmyjacks.io
@@ -93,4 +93,5 @@ nav:
       - "Cookie policy": "cookie.md"
   - Markdown:
       - "Get started": "markdown/index.md"
-      - "Syntax": "markdown/syntax.md"
+      - "Basic usage": "markdown/basic.md"
+      # - "Syntax": "markdown/syntax.md"

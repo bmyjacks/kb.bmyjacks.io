@@ -1,0 +1,30 @@
+textarea {
+    border-radius: 2px;
+    /* background-color: #fff; */
+    /* border: 1px solid #999; */
+    width: 100%;
+    min-width: 280px;
+    height: 80px;
+    min-height: 80px;
+    font-size: light;
+    font-family: 'JetBrains Mono';
+}
+
+.stackedit-button-wrapper {
+    a {
+        font-size: 0.8em;
+        text-decoration: underline;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
+    }
+
+    img {
+        width: 1.6em;
+        height: 1.6em;
+        vertical-align: bottom;
+        margin-right: 0.33em;
+    }
+}
