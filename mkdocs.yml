@@ -64,6 +64,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
 
 extra:
   analytics:
@@ -87,6 +89,7 @@ nav:
   - Home:
       - "Welcome": "index.md"
       - "About me": "about.md"
+      - "Cookie policy": "cookie.md"
   - Markdown:
       - "Get started": "markdown/index.md"
       - "Syntax": "markdown/syntax.md"

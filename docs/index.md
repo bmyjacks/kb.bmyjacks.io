@@ -5,4 +5,5 @@ hide:
 
 # Welcome to My Knowledge Base
 
-**Check the navbar above to explore!**
+!!! info
+    **Check the navbar above to explore!**
