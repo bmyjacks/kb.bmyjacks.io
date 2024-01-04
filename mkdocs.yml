@@ -51,18 +51,20 @@ theme:
 extra_css:
   - stylesheets/fonts.css
 
-extra_javascript:
-  - https://cdn-cookieyes.com/client_data/833140ebad86cc0c4a721b17/script.js
+# extra_javascript:
 
 plugins:
   - search
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-      fallback_to_build_date: true
   - git-committers:
       repository: bmyjacks/kb.bmyjacks.io
       branch: main
+  - minify:
+      minify_html: true
+      minify_js: false
+      minify_css: false
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
 
 copyright: Copyright &copy; 2024 bmyjacks. <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
@@ -86,19 +88,6 @@ extra:
   analytics:
     provider: google
     property: G-HJPMY5RN0R
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >-
-            Thanks for your feedback!
 
 nav:
   - Home:

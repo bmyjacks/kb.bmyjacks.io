@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block libs %}
+  <!-- Add scripts that need to run before here -->
+  <!-- Start cookieyes banner --> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/833140ebad86cc0c4a721b17/script.js"></script> <!-- End cookieyes banner -->
+  {{ super() }}
+  <!-- Add scripts that need to run afterwards here -->
+{% endblock %}
