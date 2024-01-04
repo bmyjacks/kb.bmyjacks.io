@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ## What is markdown
 
 **Markdown** is a lightweight markup (check its name :smile:) language for creating formatted text in a plain-text editor.[^1] Created by [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) in 2004, Markdown is widely used today.
