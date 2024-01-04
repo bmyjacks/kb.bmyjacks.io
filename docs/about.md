@@ -1,8 +1,5 @@
----
-hide:
-  - feedback
----
-
 # About me
 
-WIP
+Still in BSc in CUHKsz.
+
+Want to make learning computer science more interesting.

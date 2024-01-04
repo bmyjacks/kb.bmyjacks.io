@@ -20,7 +20,6 @@ theme:
     - navigation.sections
     - navigation.prune
     - navigation.top
-    - navigation.footer
     - navigation.instant
     - navigation.instant.progress
     - toc.follow
