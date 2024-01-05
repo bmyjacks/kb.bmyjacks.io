@@ -5,6 +5,7 @@
         url("../fonts/MiSans-Latin/MiSansLatin-Light.woff2") format("woff2");
     font-weight: light;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
         url("../fonts/MiSans-Latin/MiSansLatin-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -23,6 +25,7 @@
         url("../fonts/MiSans-Latin/MiSansLatin-Bold.woff2") format("woff2");
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -32,6 +35,7 @@
         url("../fonts/JetBrainsMono-2.304/JetBrainsMono-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 :root {
