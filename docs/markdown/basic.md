@@ -103,6 +103,89 @@ This will be connected to the previous line.
 
 Another para.
 
+## Quotes
+
+Add greater than sign(>) before the line to make a quote.
+
+```markdown
+> This is a quote.
+>
+> We can make it become a block quote.
+>> Or even nest it.
+```
+
+> This is a quote.
+>
+> We can make it become a block quote.
+>> Or even nest it.
+
+## Tables
+
+Adding tables in markdown is like drawing a table.
+
+Minus sign(-) should be added to the second line of the table and use pipeline(|) to separate columns.
+
+```markdown
+|   | A | B | C |
+| - | - | - | - |
+| 1 | A1 | B1 | C1 |
+| 2 | A2 | B2 | C2 |
+| 3 | A3 | B3 | C3 |
+```
+
+|   | A | B | C |
+| - | - | - | - |
+| 1 | A1 | B1 | C1 |
+| 2 | A2 | B2 | C2 |
+| 3 | A3 | B3 | C3 |
+
+!!! note
+    The number of minus sign(-) could be different.
+
+### Alignment
+
+Colons(:) could help us align the text.
+
+```markdown
+|   | Left | Center | Right |
+| - | :- | :-: | -: |
+| 1 | A1 | B1 | C1 |
+| 2 | A2 | B2 | C2 |
+| 3 | A3 | B3 | C3 |
+```
+
+|   | Left | Center | Right |
+| - | :- | :-: | -: |
+| 1 | A1 | B1 | C1 |
+| 2 | A2 | B2 | C2 |
+| 3 | A3 | B3 | C3 |
+
+!!! note
+    By default, all content in the table will be left aligned(like the first column).
+
+## Lists
+
+## Unordered lists
+
+To create an unordered list, minus sign(-), asterisks(*) or plus sign(+) should be placed first in the line.
+
+```markdown
+- First item
+- Second item
+- Third item
+
+* Asterisk
++ Or plus sign
+```
+
+- First item
+- Second item
+- Third item
+
+- Asterisk
+
+- Or plus sign
+
 ## Playground
 
 <textarea>
